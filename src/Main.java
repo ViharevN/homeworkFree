@@ -78,6 +78,17 @@ public class Main {
         System.out.println(allWeight + " грамм");
         double allWeightInKg = (allWeight/1000);
         System.out.println(allWeightInKg + " килограмм");
+        //задание 7
+
+        int weight = 7;
+        int weightInGrams = 7*1000;
+        int weightPerDayLow = 250;
+        int weightPerDayHigh = 500;
+        int daysForSlim = weightInGrams/weightPerDayLow;
+        System.out.println(daysForSlim + " дней потребуется, если спортсмен будет худеть на " + weightPerDayLow + " грамм.");
+        int daysForSlimHigh = weightInGrams/weightPerDayHigh;
+        System.out.println(daysForSlimHigh + " дней потребуется, если спортсмен будет худеть на " + weightPerDayHigh + " грамм.");
+
 
     }
 }
