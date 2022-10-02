@@ -16,6 +16,18 @@ public class Main {
         System.out.println(oneLong);
         byte oneByte = 99;
         System.out.println(oneByte);
+        //задание 2
+
+        float twoFloat = 27.12f;
+        long twoLong = 987_678_965_549l;
+        byte twoByte = 2;
+        int twoInt = 786;
+        boolean twoBoolean = false;
+        short twoShort = 569;
+        short freeShort = -159;
+        int freeInt = 27897;
+        byte freeByte = 67;
+
 
 
     }
