@@ -35,7 +35,21 @@ public class Main {
         int allPaper = 480;
         int paperPerChild = allPaper/(liudmilaPavlovnaChildren+annaSergeevnaChildren+ekaterinaAndreevnaChildren);
         System.out.println("На каждого ученика рассчитано " + paperPerChild + " листов бумаги");
+        //задание 4
 
+        int bottle = 16;
+        int time = 2;
+        int bottlePerMinute = bottle/time;
+        System.out.println(bottlePerMinute);//1 minute
+        int bottlePerTwelveMinute = bottlePerMinute*20;
+        System.out.println("За 20 минут машина произвела " + bottlePerTwelveMinute + " штук"); //20 minutes
+        int timeInOneDay = 60*24;
+        int bottlePerOneDay = bottlePerMinute*timeInOneDay;
+        System.out.println("За один день машина произвела " + bottlePerOneDay + " штук");//one day
+        int bottlePerFreeDays = bottlePerOneDay*3;
+        System.out.println("За 3 дня машина произвела " + bottlePerFreeDays + " штук");//3 days
+        int bottlePerOneMonth = bottlePerOneDay*30;
+        System.out.println("За 30 дней машина произвела " + bottlePerOneMonth + " штук");//30 days
 
 
 
