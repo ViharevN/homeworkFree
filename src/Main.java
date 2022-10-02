@@ -88,6 +88,20 @@ public class Main {
         System.out.println(daysForSlim + " дней потребуется, если спортсмен будет худеть на " + weightPerDayLow + " грамм.");
         int daysForSlimHigh = weightInGrams/weightPerDayHigh;
         System.out.println(daysForSlimHigh + " дней потребуется, если спортсмен будет худеть на " + weightPerDayHigh + " грамм.");
+        //задание 8
+
+        double mashaCash = 67760;
+        double denisCash = 83690;
+        double kristinaCash = 76230;
+
+        double plusCashMasha = mashaCash+(mashaCash*0.1);
+        System.out.println("Маша теперь получает " +(int) (plusCashMasha)+ " рублей. " + "Годовой доход вырос на " + (((int)(plusCashMasha*12))-(int)((mashaCash*12))) + " рублей");
+
+        double plusDenisCash = denisCash+(denisCash*0.1);
+        System.out.println("Денис теперь получает " +(int) (plusDenisCash)+ " рублей. " + "Годовой доход вырос на " + (((int)(plusDenisCash*12))-(int)((denisCash*12))) + " рублей");
+
+        double plusKristinaCash = kristinaCash+(kristinaCash*0.1);
+        System.out.println("Кристина теперь получает " +(int) (plusKristinaCash)+ " рублей. " + "Годовой доход вырос на " + (((int)(plusKristinaCash*12))-(int)((kristinaCash*12))) + " рублей");
 
 
     }
