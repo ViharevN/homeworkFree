@@ -27,6 +27,15 @@ public class Main {
         short freeShort = -159;
         int freeInt = 27897;
         byte freeByte = 67;
+        //задание 3
+
+        int liudmilaPavlovnaChildren = 23;
+        int annaSergeevnaChildren = 27;
+        int ekaterinaAndreevnaChildren = 30;
+        int allPaper = 480;
+        int paperPerChild = allPaper/(liudmilaPavlovnaChildren+annaSergeevnaChildren+ekaterinaAndreevnaChildren);
+        System.out.println("На каждого ученика рассчитано " + paperPerChild + " листов бумаги");
+
 
 
 
