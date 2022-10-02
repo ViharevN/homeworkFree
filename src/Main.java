@@ -50,8 +50,15 @@ public class Main {
         System.out.println("За 3 дня машина произвела " + bottlePerFreeDays + " штук");//3 days
         int bottlePerOneMonth = bottlePerOneDay*30;
         System.out.println("За 30 дней машина произвела " + bottlePerOneMonth + " штук");//30 days
+        //задание 5
 
-
+        int repairSchoolDye = 120;
+        int whitePerClass = 2;
+        int brownPerClass = 4;
+        int countClass = repairSchoolDye/(whitePerClass+brownPerClass);
+        int whiteDye = countClass*whitePerClass;
+        int brownDye = countClass*brownPerClass;
+        System.out.println("В школе, где " + countClass + " классов, нужно " + whiteDye + " банок белой краски и " + brownDye +" коричневой краски");
 
     }
 }
