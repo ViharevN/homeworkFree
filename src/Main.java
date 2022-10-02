@@ -59,6 +59,25 @@ public class Main {
         int whiteDye = countClass*whitePerClass;
         int brownDye = countClass*brownPerClass;
         System.out.println("В школе, где " + countClass + " классов, нужно " + whiteDye + " банок белой краски и " + brownDye +" коричневой краски");
+        //задание 6
+
+        int bananas = 5;
+        int oneBananasWeight = 80;
+        int oneHungredMilk = 2;
+        int hundredGramsMilkWeight = 105;
+        int iceCream = 2;
+        int oneIceCreamWeight = 100;
+        int eggs = 4;
+        int oneEggWeight = 70;
+
+        int allWeightBananas = bananas*oneBananasWeight;
+        int allWeightMilk = oneHungredMilk*hundredGramsMilkWeight;
+        int allWeightIceCream = iceCream*oneIceCreamWeight;
+        int allWeightEggs = eggs*oneEggWeight;
+        int allWeight = allWeightBananas+allWeightMilk+allWeightIceCream+allWeightEggs;
+        System.out.println(allWeight + " грамм");
+        double allWeightInKg = (allWeight/1000);
+        System.out.println(allWeightInKg + " килограмм");
 
     }
 }
